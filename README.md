@@ -9,11 +9,14 @@ A smart Telegram Bot that'll give you company during quarantine :P
 
 
 # Instructions
+```bash
 $ python3 BlueBot/bot.py
+```
 
 Start ngrok to set up WebHook in order to receive a simple event-notification via HTTP POST
-
+```bash
 $ ./ngrok http 8080
+```
 
 Use the URL for setting up WebHook as shown below
 ![](images/ngrok_status.png)
