@@ -13,8 +13,8 @@ Use the URL for setting up WebHook as shown below
 ![](images/ngrok_status.png)
 
 Set up WebHook and check if it was successful
- https://api.telegram.org/bot1077269366:AAFsy84bOmtzDgD7rdYbGoHKNi7ptEJscqU/setWebhook?url={ngrok_url}
- https://api.telegram.org/bot1077269366:AAFsy84bOmtzDgD7rdYbGoHKNi7ptEJscqU/getWebhookInfo
+ https://api.telegram.org/bot1{your_bot_token}/setWebhook?url={ngrok_url}
+ https://api.telegram.org/bot{your_bot_token}/getWebhookInfo
 
 Now you're good to go!
 
