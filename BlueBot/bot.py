@@ -24,7 +24,7 @@ class UserBot:
 
 
 class TelegramBot(UserBot, Bottle):  
-    BOT_URL = 'https://api.telegram.org/bot1077269366:AAFsy84bOmtzDgD7rdYbGoHKNi7ptEJscqU/'
+    BOT_URL = 'https://api.telegram.org/bot{your_bot_token}/'
 
     def __init__(self, *args, **kwargs):
         super(TelegramBot, self).__init__()
